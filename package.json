@@ -1,0 +1,31 @@
+{
+  "name": "projektas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modestas888/Projektas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Modestas888/Projektas/issues"
+  },
+  "homepage": "https://github.com/Modestas888/Projektas#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-assemble": "^0.6.3",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-svg-sprite": "^1.5.0",
+    "popper.js": "^1.14.7"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "handlebars": "^4.1.0"
+  }
+}
