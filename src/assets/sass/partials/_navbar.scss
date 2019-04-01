@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  &__center{
+    background-color: tomato;
+    text-align: -webkit-center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    &__lists{
+      list-style-type:none;
+      padding-left: 30%;
+    }
+  }
+.svg-icon{
+  fill: black;
+}
+  }
