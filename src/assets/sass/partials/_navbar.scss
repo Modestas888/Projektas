@@ -1,14 +1,26 @@
-.navbar {
-  width: 100%;
+.navbaras {
+  top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: yellowgreen;
   &__center{
-    background-color: tomato;
+        padding-left: 30%;
+    // background-color: blue;
     text-align: -webkit-center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     &__lists{
-      list-style-type:none;
-      padding-left: 30%;
+
+
+
+    }
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+      }
     }
   }
 .svg-icon{
