@@ -5,8 +5,7 @@
     width: 100%;
     background-color: yellowgreen;
   &__center{
-        padding-left: 30%;
-    // background-color: blue;
+        padding-left: 28%;
     text-align: -webkit-center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -18,6 +17,8 @@
     }
     li {
       list-style: none;
+      color: black;
+      
       a {
         text-decoration: none;
       }

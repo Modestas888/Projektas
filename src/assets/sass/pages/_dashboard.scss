@@ -10,6 +10,7 @@ margin: 50px;
     background: #ff6600;
         &--btns{
           .btn1{
+            margin-right: 60px;
             padding: 9px;
             text-decoration: none;
             border: 2px solid black;
@@ -44,7 +45,16 @@ margin: 50px;
             }
   }
   &--picture{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
         margin: 10px;
+        .clotnes{
+          margin-right: 40px;
+        }
   }
 
 
