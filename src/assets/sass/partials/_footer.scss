@@ -3,20 +3,22 @@ section {
     padding: 60px 0;
 
 }
-.row{
-  &__footeris{
+.footerfirstcontent{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-            }
+
 }
 .section .section-title {
     text-align: center;
     color: #007b5e;
     margin-bottom: 50px;
     text-transform: uppercase;
+}
+li {
+  list-style-type: none;
 }
 #footer {
     background: #007b5e !important;

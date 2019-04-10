@@ -3,6 +3,7 @@ margin: 50px;
 z-index: 1;
 
   &__title{
+    margin: -12px;
     height: 204px;
     color: white;
     border: 2px solid black;
@@ -11,6 +12,7 @@ z-index: 1;
     background: #ff6600;
         &--btns{
           .btn1{
+            top: 50px;
             margin-right: 60px;
             padding: 9px;
             text-decoration: none;
@@ -52,34 +54,51 @@ z-index: 1;
             justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-        margin: 12px;
+        margin: 38px;
+
         .clotnes{
-          margin-right: 40px;
+          margin-right: 46px;
           border: 2px solid black;
-        }
-  }
-
-
-
+          }
+          .clotnes:hover {
+            -webkit-box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+                    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+          }
 
 }
+
+
 &__arrivals{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
-  justify-content: center;
-  h1 {
-    border-bottom: 5px solid red;
-  }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
   &--pictures{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
     .clotnes{
       margin-right: 40px;
       border: 2px solid black;
-    }
+      &__firstrow{
+        .content {
+      // position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: red;
+      width: 100px;
+      padding: 20px;
 
+          }
+        }
+      }
+
+    }
   }
-}
-}
+  }
