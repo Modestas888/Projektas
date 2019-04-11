@@ -9625,12 +9625,18 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 .navbaras {
-  z-index: 999;
+  z-index: 998;
   top: 0;
   left: 0;
   position: fixed;
   width: 100%;
   background-color: white;
+}
+.navbaras__left {
+  position: absolute;
+  margin-left: 50px;
+  border: 4px solid;
+  background: black;
 }
 .navbaras__center {
   -webkit-box-pack: center;
@@ -9644,12 +9650,21 @@ a.text-dark:hover, a.text-dark:focus {
 .navbaras__center li {
   list-style: none;
   color: black;
+  margin: 10px;
 }
 .navbaras__center li a {
   text-decoration: none;
 }
+.navbaras__right {
+  position: absolute;
+  border: 4px solid;
+  background: black;
+}
 .navbaras .svg-icon {
   fill: green;
+  z-index: 999;
+  width: 36px;
+  height: 36px;
 }
 
 section {
@@ -9753,12 +9768,16 @@ body {
   z-index: -100;
 }
 
+.svg-sprite-container {
+  display: none;
+}
+
 .dashboardas {
   margin: 50px;
   z-index: 1;
 }
 .dashboardas__title {
-  margin: -12px;
+  margin: 56px;
   height: 204px;
   color: white;
   border: 2px solid black;
@@ -9766,7 +9785,7 @@ body {
   background: #ff6600;
 }
 .dashboardas__title--btns .btn1 {
-  top: 50px;
+  top: 48px;
   margin-right: 60px;
   padding: 9px;
   text-decoration: none;
@@ -9809,7 +9828,10 @@ body {
   -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
-.dashboardas__title__arrivals {
+.dashboardas__title .arrivalstext h1 {
+  text-align: center;
+}
+.dashboardas__title__arrivals .texts {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -9822,11 +9844,7 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-.dashboardas__title--pictures .clotnes {
-  margin-right: 40px;
-  border: 2px solid black;
-}
-.dashboardas__title--pictures .clotnes__firstrow .content {
+.dashboardas__title--pictures__firstrow .content {
   bottom: 0;
   background: black;
   /* Fallback color */
@@ -9835,4 +9853,12 @@ body {
   color: red;
   width: 100px;
   padding: 20px;
+}
+.dashboardas__arrivalstext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }

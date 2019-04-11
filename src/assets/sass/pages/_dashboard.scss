@@ -3,7 +3,7 @@ margin: 50px;
 z-index: 1;
 
   &__title{
-    margin: -12px;
+    margin: 56px;
     height: 204px;
     color: white;
     border: 2px solid black;
@@ -12,7 +12,7 @@ z-index: 1;
     background: #ff6600;
         &--btns{
           .btn1{
-            top: 50px;
+            top: 48px;
             margin-right: 60px;
             padding: 9px;
             text-decoration: none;
@@ -66,15 +66,22 @@ z-index: 1;
           }
 
 }
+.arrivalstext{
+h1 {
+  text-align: center;
+}
+}
 
 
-&__arrivals{
+    &__arrivals{
+
+  .texts{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex;}
 }
 
   &--pictures{
@@ -82,10 +89,8 @@ z-index: 1;
       display: -ms-flexbox;
       display: flex;
 
-    .clotnes{
-      margin-right: 40px;
-      border: 2px solid black;
-      &__firstrow{
+
+      &__firstrow {
         .content {
       // position: absolute;
       bottom: 0;
@@ -97,8 +102,16 @@ z-index: 1;
 
           }
         }
+
       }
 
-    }
   }
+&__arrivalstext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
   }
